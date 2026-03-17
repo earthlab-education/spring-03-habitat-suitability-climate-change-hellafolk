@@ -1,2 +1,21 @@
 .ipynb_checkpoints
 .DS_Store
+
+# .gitignore
+
+# large downloaded data files
+*.zip
+*.nc
+*.hgt
+*.csv
+*.gdb
+*.kmz
+*.lyrx
+*.xml
+
+# geodatabase folders
+PADUS4_1_StateCO.gdb/
+
+# but KEEP plots and tif outputs
+!**plots/**
+!*suitability*.tif
